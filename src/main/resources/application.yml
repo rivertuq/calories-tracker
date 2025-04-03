@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/caloriestracker_db
+    username: postgres
+    password: 79182872449
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
